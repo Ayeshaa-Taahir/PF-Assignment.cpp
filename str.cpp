@@ -5,7 +5,7 @@ int main() {
     int count[256] = {0}; // Array to store the frequency of each character (ASCII range)
 
     cout << "Input a string: ";
-    cin >> input; // Read a string (stops at whitespace)
+    cin >> input; )
 
     // to count the frequency of each character
     for (int i = 0; input[i] != '\0'; i++) {

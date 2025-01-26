@@ -14,11 +14,10 @@ int main() {
     originalNum = num;
     // to calculate the sum of digits raised to the power of n
     while (originalNum != 0) {
-        remainder = originalNum % 10;         // Get the last digit
-        result += pow(remainder, n);         // Add digit^n to the result
-        originalNum /= 10;                   // Remove the last digit
+        remainder = originalNum % 10;         // to get the last digit
+        result += pow(remainder, n);         // to add digit^n to the result
+        originalNum /= 10;                   // to remove the last digit
     }
-
     //to check if the number is an Armstrong number
     if (result == num) {
         cout << num << " is an Armstrong number" << endl;

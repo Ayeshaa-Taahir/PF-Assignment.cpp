@@ -39,7 +39,7 @@ int main() {
     while (i < str.length()) {
         char ch = str[i];
 
-        // Count uppercase, lowercase, vowels, and consonants
+        // To Count uppercase, lowercase, vowels, and consonants
         if (isUppercase(ch)) {
             uppercase++;
             if (isVowel(ch)) vowels++;
@@ -71,13 +71,13 @@ int main() {
     }
 
     // Output the results
-    cout << "Total number of vowels: " << vowels << endl;
-    cout << "Total number of consonants: " << consonants << endl;
-    cout << "Total number of uppercase letters: " << uppercase << endl;
-    cout << "Total number of lowercase letters: " << lowercase << endl;
-    cout << "Total number of digits: " << digits << endl;
-    cout << "Total number of special characters: " << specialCharacters << endl;
-    cout << "Total number of words: " << words << endl;
+    cout << "Total number of vowels " << vowels << endl;
+    cout << "Total number of consonants " << consonants << endl;
+    cout << "Total number of uppercase letters " << uppercase << endl;
+    cout << "Total number of lowercase letters " << lowercase << endl;
+    cout << "Total number of digits " << digits << endl;
+    cout << "Total number of special characters " << specialCharacters << endl;
+    cout << "Total number of words " << words << endl;
 
     return 0;
 }

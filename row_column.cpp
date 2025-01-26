@@ -40,7 +40,7 @@ int main()
       cout << endl ;
   }
 
-// Check if matrices can be compared (same dimensions)
+// To Check if matrices can be compared (same dimensions)
     if (row1 == row2 && column1 == column2)
     {
         cout << "The matrices can be compared." << endl;
